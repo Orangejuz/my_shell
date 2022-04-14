@@ -21,3 +21,5 @@ CREATE USER 'coding'@'%' IDENTIFIED BY ' coding123';
 GRANT ALL PRIVILEGES ON *.* TO 'coding'@'%' WITH GRANT OPTION;
 
 FLUSH PRIVILEGES;
+
+echo "安装结束。。。。"
